@@ -1,0 +1,12 @@
+<h1>Example App: Home</h1>
+
+<form action="/" method="post">
+  <input type="text" name="username" id="username" />
+  <button>Add New User</button>
+</form>
+
+<ul>
+  {{#each users}}
+    <li>{{username}}</li>
+  {{/each}}
+</ul>
